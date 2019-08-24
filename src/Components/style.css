@@ -1,0 +1,122 @@
+.item-body{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+.item-single{
+    height: 200px;
+    width: 150px;
+    display: block;
+    background-color: turquoise;
+}
+
+.item-image{
+    width: 150px;
+    height: 150px;
+}
+
+.item-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item-header{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-button{
+    font-size: 15px;
+    background: blue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    cursor: pointer;
+}
+.video-body{
+    background-color: azure;
+}
+.video-single{
+    height: auto;
+}
+.footer-content{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    font-size: 14px;
+}
+.footer-body{
+    background-color: aqua;
+    
+}
+
+.select-language{
+    width: 300px;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.video-image{
+    width: 300px;
+    height: auto;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
+    }
+   .header-section{
+       display: block;
+       padding: 20px;
+   }
+   .item-container{
+    justify-content: flex-start;
+    overflow: scroll;
+    padding-left: 20px;
+   }
+   .item-single{
+    margin-right: 20px;
+   }
+   .video-single{
+       width: 300px;
+   }
+   .video-body{
+    overflow: hidden;
+   }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        width: 768px;
+    }
+    .item-container{
+        justify-content: flex-start;
+        overflow: scroll;
+        padding-left: 20px;
+       }
+       .item-single{
+        margin-right: 20px;
+       }
+       .video-single{
+           width: 300px;
+       }
+       .video-body{
+        overflow: hidden;
+       }
+  }

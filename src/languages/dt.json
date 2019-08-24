@@ -1,0 +1,36 @@
+{
+    "dutchData" :{
+        "header":{
+            "button1": "bouton 1",
+            "button2": "bouton 2",
+            "searchBar": "Reserach un contenu",
+            "SignIN": "Sign In",
+            "Register": "Enregisterer"
+        },
+        "ItemSectionHeader":{   
+            "heading": "Article Popularies",
+            "viewall": "Voir tous les articles"
+        },
+        "ItemSectionContent":"Lorem Ipsum",
+        "VideoSectionHeader":{
+            "heading": "Dernières vidéo",
+            "viewall": " Plus de vidéos"
+    
+        },
+        "Footer":{
+            "mobile": "123345678",
+            "Email" : "company@gmail.com",
+            "Url" : "website.url",
+            "Company":"Enterprise",
+            "aboutUS": "A propos de nous",
+            "Contact": "Contactez nous",
+            "partner": "Devenis notre partenaire",
+            "Links": "Liens",
+            "Course": "Cours",
+            "Blogs": "Blogs at Nouvelles",
+            "Others": "Autres",
+            "tandc": "Terms et Conditions",
+            "sitemap": "SiteMape"
+        }
+}
+}

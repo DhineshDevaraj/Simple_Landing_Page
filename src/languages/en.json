@@ -1,0 +1,35 @@
+{
+    "englishData" :{
+   "header":{
+        "button1": "Button1",
+        "button2": "Button2",
+        "searchBar": "Search a Content",
+        "SignIN": "Sign In",
+        "Register": "Register"
+    },
+    "ItemSectionHeader":{   
+        "heading": "Popular Items",
+        "viewall": "View all Items"
+    },
+    "ItemSectionContent":"Some Content",
+    "VideoSectionHeader":{
+        "heading": "Latest Videos",
+        "viewall": "More videos"
+    },
+    "Footer":{
+        "mobile": "123345678",
+        "Email" : "company@gmail.com",
+        "Url" : "website.url",
+        "Company":"Company",
+        "aboutUS": "AboutUS",
+        "Contact": "Contact Us",
+        "partner": "Become our Partner",
+        "Links": "Links",
+        "Course": "Courses",
+        "Blogs": "Blogs& and News",
+        "Others": "Others",
+        "tandc": "Terms and Conditions",
+        "sitemap": "SiteMap"
+    }
+}
+}
